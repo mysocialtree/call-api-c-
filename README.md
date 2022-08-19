@@ -25,9 +25,14 @@ the only thing you need to do is to change the variable to something you whant l
 
     var id = yourObject.RootElement
                       .GetProperty("id");
+		      
+    Console.WriteLine(id);
         
-    var id = yourObject.RootElement
+    var name = yourObject.RootElement
                       .GetProperty("name");
+
+     Console.WriteLine(name);
+		      
 
 
  How to get your api token:
